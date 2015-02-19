@@ -1,0 +1,122 @@
+body, html {
+  font-family: 'fira_sanslight', sans;
+  width: 100%;
+  height: 100%;
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden !important;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background: #00CAF2;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+body.scanning #reader {
+  display: none;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+button {
+  transition: transform 0.1s;
+}
+
+button:active{
+  transform: scale(0.9);
+}
+
+div#reader {
+  box-sizing: border-box;
+  width: 20rem;
+  line-height: 20rem;
+  font-size: 2.5rem;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0;
+  border: medium none;
+  height: 20rem;
+  box-shadow: 0 1.1rem 0.9rem 0 rgba(50, 50, 50, 0.6);
+  background-color: #eee;
+  text-align: center;
+  transition: background-color 1s;
+  overflow: hidden;
+}
+
+div#reader img[src=''] {
+  display: none;
+}
+
+div#reader img {
+  width: 100%;
+  height: auto;
+}
+
+#text_read {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 1rem;
+  left: 0;
+  font-size: 2rem;
+  color: white;
+}
+
+div#reader[loading] {
+  background-image: url(img/loading.gif);
+  background-position: center center;
+  background-size: 20rem;
+  background-repeat: no-repeat;
+}
+
+.brand {
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 2rem;
+  font-size: 2rem;
+}
+
+.brand span {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+#pairing-panel {
+  border-radius: 50%;
+  width: 24rem;
+  height: 24rem;
+  overflow: hidden;
+  z-index: 100;
+}
+
+#close {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.85);
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: #333;
+  border: none;
+  font-size: 2rem;
+  line-height: 4rem;
+  text-align: center;
+}
+
+
+#close {
+  background: url("img/close.svg") no-repeat scroll center center / 2rem auto rgba(255, 255, 255, 0.85);
+}

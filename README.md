@@ -1,2 +1,2 @@
-# qreader_basic
-Basic QR Reader based on activities
+# qreader
+QR Reader based on Web Activities.

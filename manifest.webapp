@@ -1,0 +1,25 @@
+{
+  "name": "QReader",
+  "description": "QR Reader",
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "Firefox OS Educational",
+    "url": "https://github.com/firefoxosedu"
+  },
+  "locales": {
+    "en-US": {
+      "name": "QReader Basic",
+      "description": "QR Reader"
+    },
+    "es": {
+      "name": "QReader Basic",
+      "description": "Lector QR"
+    }
+  },
+  "default_locale": "en-US",
+  "icons": {
+    "128": "/style/icons/128.png",
+    "512": "/style/icons/512.png"
+  },
+  "version": "1"
+}

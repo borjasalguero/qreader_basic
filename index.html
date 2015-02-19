@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="theme-color" content="#00CAF2">
+    <meta charset="utf-8">
+    <title>QRReader BASIC</title>
+    <!--
+      Check https://github.com/LazarSoft/jsqrcode for more info.
+    -->
+    <script type="text/javascript" src="libs/grid.js"></script>
+    <script type="text/javascript" src="libs/version.js"></script>
+    <script type="text/javascript" src="libs/detector.js"></script>
+    <script type="text/javascript" src="libs/formatinf.js"></script>
+    <script type="text/javascript" src="libs/errorlevel.js"></script>
+    <script type="text/javascript" src="libs/bitmat.js"></script>
+    <script type="text/javascript" src="libs/datablock.js"></script>
+    <script type="text/javascript" src="libs/bmparser.js"></script>
+    <script type="text/javascript" src="libs/datamask.js"></script>
+    <script type="text/javascript" src="libs/rsdecoder.js"></script>
+    <script type="text/javascript" src="libs/gf256poly.js"></script>
+    <script type="text/javascript" src="libs/gf256.js"></script>
+    <script type="text/javascript" src="libs/decoder.js"></script>
+    <script type="text/javascript" src="libs/qrcode.js"></script>
+    <script type="text/javascript" src="libs/findpat.js"></script>
+    <script type="text/javascript" src="libs/alignpat.js"></script>
+    <script type="text/javascript" src="libs/databr.js"></script>
+
+    <!--
+      From this point our App code
+    -->
+    <script defer type="text/javascript" src="js/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="style/app.css">
+    <link rel="stylesheet" type="text/css" href="style/fonts/stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  </head>
+  <body>
+    <button id="close"></button>
+    <h1 class="brand">QR<span>eader</span> <b>BASIC</b></h1>
+    <div id="reader" loading>
+      <img id="image" src="">
+    </div>
+    <a id="text_read" href="" target="_blank"></a>
+  </body>
+</html>
